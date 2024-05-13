@@ -1,9 +1,12 @@
 {
-	"devDependencies": {
-		"prettier": "^3.0.3",
-		"stylelint-config-standard": "^34.0.0"
-	},
-	"dependencies": {
-		"stylelint": "^15.11.0"
-	}
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "prettier": "^3.0.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
 }
