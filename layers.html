@@ -9,15 +9,17 @@
         width: 200px;
         height: 200px;
       }
-      @layer A {
+      /* 匿名 */
+      @layer {
         div {
-          background-color: red;
+          background-color: pink;
         }
       }
+      @layer B,C,A;
 
-      @layer B {
+      @layer A {
         div {
-          background-color: gray;
+          background-color: skyblue;
         }
       }
     </style>

@@ -1,9 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "vite dev"
+    "dev": "vite dev",
+    "build": "vite build"
   },
   "devDependencies": {
+    "@types/node": "^22.5.1",
     "vite": "^5.4.2"
   }
 }
